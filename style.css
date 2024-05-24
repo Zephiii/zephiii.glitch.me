@@ -1,0 +1,50 @@
+body {
+  background: #000;
+  color: #fff;
+  margin: 40px auto;
+  max-width: 800px;
+  line-height: 1.2;
+  font-family: "Courier New", monospace;
+  font-size: 12pt;
+}
+
+a:link {
+  color: #69f;
+}
+
+a:visited {
+  color: #c0c;
+}
+
+#human-font-msg a:visited {
+  color: #69f;
+}
+
+small {
+  font-size: 8pt;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0f0;
+}
+
+h2 {
+  font-size: 125%;
+}
+
+li {
+  margin: 10px 0;
+}
+
+#human-font-msg {
+  border: 2px solid;
+  padding: 10px;
+  margin: 20px;
+  font-family: sans-serif;
+}
+
+code {
+  padding: 5px;
+  background: #333;
+  font-family: "Courier New", monospace;
+}
