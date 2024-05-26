@@ -1,50 +1,105 @@
 body {
-  background: #000;
-  color: #fff;
-  margin: 40px auto;
-  max-width: 800px;
-  line-height: 1.2;
-  font-family: "Courier New", monospace;
-  font-size: 12pt;
+  color: #eff3f7;
+  background-color: #000000;
+  /*font-family: "Catrinity", sans-serif;*/
+  font-family: "Courier New", sans-serif;
 }
 
-a:link {
-  color: #69f;
+/*h1 {
+  background-image: url('https://cdn.discordapp.com/attachments/1198236773831163934/1206120886793666581/wat.png?ex=65dada9c&is=65c8659c&hm=79715f604772ad7e8e50aa04ccc2daf7fb8c77040e6b7f3e098de9df8197b314&');
+}*/
+
+nav {
+  border:ridge #131516;
+  background-color:#131516;
+  text-align: center;
+  margin: auto;
+  padding:0.5em;
 }
 
-a:visited {
-  color: #c0c;
+hr {
+  border:ridge #131516;
 }
 
-#human-font-msg a:visited {
-  color: #69f;
+.navbutton {
+  border: outset #fff055;
+  background-color:#fff055;
+  text-align: center;
+  padding: 0.125em;
 }
 
-small {
-  font-size: 8pt;
+.navbuttoncurrent {
+  border: inset #a69c37;
+  background-color: #a69c37;
+  text-align: center;
+  padding: 0.125em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #fff;
+.navbutton:hover {
+  border: inset #a69c37;
+  background-color: #a69c37;
 }
 
-h2 {
-  font-size: 125%;
+.bordered_text {
+  width: 85%;
+  border:ridge #f3f4f5;
+  background-color:#f3f4f5;
+  margin: auto;
+  padding: 0.625em;
+  color: black;
 }
 
-li {
-  margin: 10px 0;
+.about_leftside_text {
+/*  border:ridge;*/
+  width: 54%;
+  margin: auto;
+  margin-left: 4%;
 }
 
-#human-font-msg {
-  border: 2px solid;
-  padding: 10px;
-  margin: 20px;
-  font-family: sans-serif;
+.about_pic_description {
+  width: 13%;
+  margin-top: 30em;
+  margin-right: -23.125em;
+  float:right;
+  padding: 0em;
 }
 
-code {
-  padding: 5px;
-  background: #333;
-  font-family: "Courier New", monospace;
+.about_leftside_text h2 {text-align:center;}
+
+/*.about_leftside_text h3 {margin-left: 18px;}*/
+
+.wikipedia_joke {
+  padding-left: 1.6em;
 }
+
+.devlog_header{
+  font-size: 1.17em;
+}
+
+.devlog {
+  border: double;
+  height: 25em;
+  width: 50em;
+  overflow: scroll;
+  padding-right: 1.25em;
+}
+
+.footer {
+  margin: auto;
+}
+
+summary {cursor:pointer;}
+
+link styling
+a:link{color: lightskyblue;}
+a:visited{color: #7477f7;}
+a:hover{font-weight: bold;}
+a:active{font-weight: bold;}
+
+a:link.navbutton{color: black;}
+a:visited.navbutton{color: black;}
+a:link.navbuttoncurrent{color: black;}
+a:visited.navbuttoncurrent{color: black;}
+
+a:link.about_leftside_text{color: #5c93c5; font-weight: bold;}
+a:visited.about_leftside_text{color: #7477f7; font-weight: bold;}
