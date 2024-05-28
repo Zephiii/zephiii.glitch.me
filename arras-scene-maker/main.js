@@ -357,7 +357,7 @@ function addEntity(type,x,y,angle,color,health,name,level,barrels,bodyType,class
 function getClassBarrels(className){
 	if (className == "basic"){
 		return [
-	{barrelType: 0, length: 42, width: 18, angle: 0, offsetX: 0, damage: 1, penetration: 1}
+	{barrelType: 0, length: 42, width: 20, angle: 0, offsetX: 0, damage: 1, penetration: 1}
 ];
 		} else if (className == "flank"){
 		return [
