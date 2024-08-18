@@ -40,6 +40,18 @@ hr {
   background-color: #DEC994;
 }
 
+.osabutton {
+  border: outset #1B3353;
+  background-color:#1B3353;
+  text-align: center;
+  padding: 0.125em;
+}
+
+.osabutton:hover {
+  border: inset #3D5575;
+  background-color: #3D5575;
+}
+
 .bordered_text {
   width: 85%;
   border:ridge #f3f4f5;
@@ -100,6 +112,8 @@ a:link.navbutton{color: black;}
 a:visited.navbutton{color: black;}
 a:link.navbuttoncurrent{color: black;}
 a:visited.navbuttoncurrent{color: black;}
+a:link.osabutton{color: white;}
+a:visited.osabutton{color: white;}
 
 a:link.about_leftside_text{color: #5c93c5; font-weight: bold;}
 a:visited.about_leftside_text{color: #7477f7; font-weight: bold;}
