@@ -1,8 +1,13 @@
+@font-face {
+ font-family: "Inclusive Sans";
+ src: url("https://zephi.cc/assets/fonts/InclusiveSans-Regular.ttf") format("truetype");
+}
+
 body {
-  color: #eff3f7;
-  background-color: #000000;
+  color: #000000;
+  background-color: #f5f5f5;
   /*font-family: "Catrinity", sans-serif;*/
-  font-family: "Courier", sans-serif;
+  font-family: "Inclusive Sans", sans-serif;
 }
 
 /*h1 {
@@ -10,34 +15,34 @@ body {
 }*/
 
 nav {
-  border:ridge #131516;
-  background-color:#131516;
+  border:ridge #f5f5f5;
+  background-color:#f5f5f5;
   text-align: center;
   margin: auto;
   padding:0.5em;
 }
 
 hr {
-  border:ridge #131516;
+  border:ridge #f5f5f5;
 }
 
 .navbutton {
-  border: outset #fff055;
-  background-color:#fff055;
+  border: outset #cfcfcf;
+  background-color:#cfcfcf;
   text-align: center;
   padding: 0.125em;
 }
 
 .navbuttoncurrent {
-  border: inset #a69c37;
-  background-color: #a69c37;
+  border: inset #afafaf;
+  background-color: #afafaf;
   text-align: center;
   padding: 0.125em;
 }
 
 .navbutton:hover {
-  border: inset #a69c37;
-  background-color: #a69c37;
+  border: inset #afafaf;
+  background-color: #afafaf;
 }
 
 .bordered_text {
