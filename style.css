@@ -10,15 +10,15 @@ body {
 }*/
 
 nav {
-  border:ridge #11005C;
-  background-color:#11005C;
+  border:ridge #566094;
+  background-color:#566094;
   text-align: center;
   margin: auto;
   padding:0.5em;
 }
 
 hr {
-  border:ridge #11005C;
+  border:ridge #566094;
 }
 
 .navbutton {
