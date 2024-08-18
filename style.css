@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Inclusive Sans";
+  src: url('InclusiveSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 body {
   color: #11005C;
   background-color: #E1E6FF;
