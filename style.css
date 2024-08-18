@@ -1,6 +1,6 @@
 body {
-  color: #000000;
-  background-color: #f5f5f5;
+  color: #11005C;
+  background-color: #E1E6FF;
   /*font-family: "Catrinity", sans-serif;*/
   font-family: "Inclusive Sans", sans-serif;
 }
@@ -10,34 +10,34 @@ body {
 }*/
 
 nav {
-  border:ridge #f5f5f5;
-  background-color:#f5f5f5;
+  border:ridge #11005C;
+  background-color:#11005C;
   text-align: center;
   margin: auto;
   padding:0.5em;
 }
 
 hr {
-  border:ridge #f5f5f5;
+  border:ridge #11005C;
 }
 
 .navbutton {
-  border: outset #dfdfdf;
-  background-color:#dfdfdf;
+  border: outset #FFD45E;
+  background-color:#FFD45E;
   text-align: center;
   padding: 0.125em;
 }
 
 .navbuttoncurrent {
-  border: inset #bfbfbf;
-  background-color: #bfbfbf;
+  border: inset #DEC994;
+  background-color: #DEC994;
   text-align: center;
   padding: 0.125em;
 }
 
 .navbutton:hover {
-  border: inset #bfbfbf;
-  background-color: #bfbfbf;
+  border: inset #DEC994;
+  background-color: #DEC994;
 }
 
 .bordered_text {
