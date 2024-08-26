@@ -96,16 +96,39 @@ hr {
 summary {cursor:pointer;}
 
 link styling
-a{color: lightskyblue;}
-a:link{color: lightskyblue;}
-a:visited{color: lightskyblue;}
-a:hover{font-weight: bold;}
-a:active{font-weight: bold;}
+a:link{
+  color: lightskyblue;
+  text-decoration: none;
+}
+a:visited{
+  color: lightskyblue;
+  text-decoration: none;
+}
+a:hover{
+  font-weight: bold;
+  text-decoration: none;
+}
+a:active{
+  font-weight: bold;
+  text-decoration: none;
+}
 
-a:link.navbutton{color: white;}
-a:visited.navbutton{color: white;}
-a:link.navbuttoncurrent{color: white;}
-a:visited.navbuttoncurrent{color: white;}
+a:link.navbutton{
+  color: white;
+  text-decoration: none;
+}
+a:visited.navbutton{
+  color: white;
+  text-decoration: none;
+}
+a:link.navbuttoncurrent{
+  color: white;
+  text-decoration: none;
+}
+a:visited.navbuttoncurrent{
+  color: white;
+  text-decoration: none;
+}
 
 a:link.about_leftside_text{color: lightskyblue; font-weight: bold;}
 a:visited.about_leftside_text{color: lightskyblue; font-weight: bold;}
