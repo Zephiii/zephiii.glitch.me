@@ -1,7 +1,7 @@
 body {
-  color: #11005C;
-  background-color: #E1E6FF;
-  background-image: url('assets/images/emeralds.png');
+  color: #FFFFFF;
+  background-color: #002524;
+  background-image: url('assets/images/woodZoneBG.png');
   /*font-family: "Catrinity", sans-serif;*/
   font-family: "Inclusive Sans", sans-serif;
 }
@@ -11,34 +11,34 @@ body {
 }*/
 
 nav {
-  border:ridge #566094;
-  background-color:#566094;
+  border:ridge #222222;
+  background-color:#4E224A;
   text-align: center;
   margin: auto;
   padding:0.5em;
 }
 
 hr {
-  border:ridge #566094;
+  border:ridge #000000;
 }
 
 .navbutton {
-  border: outset #FFD45E;
-  background-color:#FFD45E;
+  border: outset #006E45;
+  background-color:#006E45;
   text-align: center;
   padding: 0.125em;
 }
 
 .navbuttoncurrent {
-  border: inset #DEC994;
-  background-color: #DEC994;
+  border: inset #004920;
+  background-color: #004920;
   text-align: center;
   padding: 0.125em;
 }
 
 .navbutton:hover {
-  border: inset #DEC994;
-  background-color: #DEC994;
+  border: inset #004920;
+  background-color: #004920;
 }
 
 .osabutton {
@@ -104,6 +104,23 @@ hr {
 summary {cursor:pointer;}
 
 link styling
+a{color: lightskyblue;}
+a:link{color: lightskyblue;}
+a:visited{color: lightskyblue;}
+a:hover{font-weight: bold;}
+a:active{font-weight: bold;}
+
+a:link.navbutton{color: white;}
+a:visited.navbutton{color: white;}
+a:link.navbuttoncurrent{color: white;}
+a:visited.navbuttoncurrent{color: white;}
+a:link.osabutton{color: white;}
+a:visited.osabutton{color: white;}
+
+a:link.about_leftside_text{color: lightskyblue; font-weight: bold;}
+a:visited.about_leftside_text{color: lightskyblue; font-weight: bold;}
+
+/*
 a:link{color: lightskyblue;}
 a:visited{color: #7477f7;}
 a:hover{font-weight: bold;}
@@ -118,3 +135,4 @@ a:visited.osabutton{color: white;}
 
 a:link.about_leftside_text{color: #5c93c5; font-weight: bold;}
 a:visited.about_leftside_text{color: #7477f7; font-weight: bold;}
+*/
