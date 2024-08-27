@@ -50,41 +50,6 @@ hr {
   color: black;
 }
 
-.about_leftside_text {
-/*  border:ridge;*/
-  width: 54%;
-  margin: auto;
-  margin-left: 4%;
-}
-
-.about_pic_description {
-  width: 13%;
-  margin-top: 30em;
-  margin-right: -23.125em;
-  float:right;
-  padding: 0em;
-}
-
-.about_leftside_text h2 {text-align:center;}
-
-/*.about_leftside_text h3 {margin-left: 18px;}*/
-
-.wikipedia_joke {
-  padding-left: 1.6em;
-}
-
-.devlog_header{
-  font-size: 1.17em;
-}
-
-.devlog {
-  border: double;
-  height: 25em;
-  width: 50em;
-  overflow: scroll;
-  padding-right: 1.25em;
-}
-
 .footer {
   margin: auto;
 }
@@ -115,30 +80,15 @@ a:active{
 
 a:link.navbutton{
   color: white;
-  text-decoration: none;
 }
 a:visited.navbutton{
   color: white;
-  text-decoration: none;
 }
 a:link.navbuttoncurrent{
   color: white;
-  text-decoration: none;
 }
 a:visited.navbuttoncurrent{
   color: white;
-  text-decoration: none;
-}
-
-a:link.about_leftside_text{
-  color: dodgerblue;
-  font-weight: bold;
-  text-decoration: none;
-}
-a:visited.about_leftside_text{
-  color: dodgerblue;
-  font-weight: bold;
-  text-decoration: none;
 }
 
 /*
