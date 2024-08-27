@@ -92,12 +92,16 @@ hr {
 summary {cursor:pointer;}
 
 link styling
+:link{
+  color: dodgerblue;
+  text-decoration: none;
+}
 a:link{
-  color: lightskyblue;
+  color: dodgerblue;
   text-decoration: none;
 }
 a:visited{
-  color: lightskyblue;
+  color: dodgerblue;
   text-decoration: none;
 }
 a:hover{
@@ -126,8 +130,16 @@ a:visited.navbuttoncurrent{
   text-decoration: none;
 }
 
-a:link.about_leftside_text{color: lightskyblue; font-weight: bold;}
-a:visited.about_leftside_text{color: lightskyblue; font-weight: bold;}
+a:link.about_leftside_text{
+  color: dodgerblue;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:visited.about_leftside_text{
+  color: dodgerblue;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 /*
 a:link{color: lightskyblue;}
