@@ -53,6 +53,7 @@ hr {
 
 .footer {
   margin: auto;
+  text-align: center;
 }
 
 summary {cursor:pointer;}
