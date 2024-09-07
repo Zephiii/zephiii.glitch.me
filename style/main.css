@@ -2,7 +2,7 @@ body {
   color: #FFFFFF;
   background-color: #000D0D;
   /*font-family: "Catrinity", sans-serif;*/
-  background-image: url('assets/images/background.png');
+  background-image: url('../assets/images/background.png');
   font-family: "Inclusive Sans", sans-serif;
 }
 
@@ -15,7 +15,7 @@ nav {
 }
 
 .title {
-  background-image: url('assets/images/woodzone.png');
+  background-image: url('../assets/images/woodzone.png');
   text-align: center;
 }
 
