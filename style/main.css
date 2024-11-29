@@ -3,19 +3,22 @@ body {
   background-color: #000D0D;
   /*font-family: "Catrinity", sans-serif;*/
   background-image: url('../assets/images/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
   font-family: "Inclusive Sans", sans-serif;
 }
 
 nav {
-  border:ridge #222222;
-  background-color:#4E224A;
+  border:ridge #67D9EF;
+  background-color:#5DD1EB;
   text-align: center;
   margin: auto;
   padding:0.35em;
 }
 
 .title {
-  background-image: url('../assets/images/woodzone.png');
+  /*background-image: url('../assets/images/woodzone.png');*/
   text-align: center;
 }
 
@@ -24,22 +27,24 @@ hr {
 }
 
 .navbutton {
-  border: outset #006E45;
-  background-color:#006E45;
+  border: outset #9DD53F;
+  background-color:#9DD53F;
   text-align: center;
+  color: #000000;
   padding: 0.125em;
 }
 
 .navbuttoncurrent {
-  border: inset #004920;
-  background-color: #004920;
+  border: inset #78BF4A;
+  background-color: #78BF4A;
   text-align: center;
+  color: #000000;
   padding: 0.125em;
 }
 
 .navbutton:hover {
-  border: inset #004920;
-  background-color: #004920;
+  border: inset #78BF4A;
+  background-color: #78BF4A;
 }
 
 .bordered_text {
@@ -81,16 +86,16 @@ a:active{
 }
 
 a:link.navbutton{
-  color: white;
+  color: black;
 }
 a:visited.navbutton{
-  color: white;
+  color: black;
 }
 a:link.navbuttoncurrent{
-  color: white;
+  color: black;
 }
 a:visited.navbuttoncurrent{
-  color: white;
+  color: black;
 }
 
 /*
